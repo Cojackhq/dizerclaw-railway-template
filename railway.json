@@ -3,6 +3,11 @@
   "build": {
     "buildCommand": "npm run build"
   },
+  "variables": {
+    "OPENCLAW_GATEWAY_PORT": "${{PORT}}",
+    "OPENCLAW_STATE_DIR": "/data/.openclaw",
+    "OPENCLAW_WORKSPACE_DIR": "/data/workspace"
+  },
   "deploy": {
     "startCommand": "npm run start",
     "numReplicas": 1,
