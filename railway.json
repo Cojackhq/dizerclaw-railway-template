@@ -6,7 +6,7 @@
     "OPENCLAW_WORKSPACE_DIR": "/data/workspace"
   },
   "deploy": {
-    "startCommand": "OPENCLAW_GATEWAY_PORT=${PORT:-8080} ./node_modules/.bin/openclaw gateway",
+    "startCommand": "OPENCLAW_GATEWAY_PORT=${PORT:-8080} ./node_modules/.bin/openclaw gateway --allow-unconfigured",
     "numReplicas": 1,
     "sleepApplication": false,
     "restartPolicyType": "ON_FAILURE",
