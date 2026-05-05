@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "OpenClaw on Railway — CoJack template",
   "engines": {
-    "node": ">=20"
+    "node": ">=22.12.0"
   },
   "dependencies": {
     "openclaw": "latest"
