@@ -5,6 +5,8 @@ Built on Nixpacks. Persistent storage via Railway Volume.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/REPLACE_WITH_YOUR_TEMPLATE_CODE)
 
+> **Template code:** After publishing on Railway, replace `REPLACE_WITH_YOUR_TEMPLATE_CODE` above with your template code from railway.com/workspace/templates
+
 ---
 
 ## What you get
