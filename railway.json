@@ -1,13 +1,12 @@
 {
   "$schema": "https://railway.com/railway.schema.json",
   "variables": {
-    "OPENCLAW_GATEWAY_PORT": "${{PORT}}",
     "OPENCLAW_GATEWAY_TOKEN": "${{secret(64, \"abcdef0123456789\")}}",
     "OPENCLAW_STATE_DIR": "/data/.openclaw",
     "OPENCLAW_WORKSPACE_DIR": "/data/workspace"
   },
   "deploy": {
-    "startCommand": "npm run start",
+    "startCommand": "OPENCLAW_GATEWAY_PORT=${PORT:-8080} ./node_modules/.bin/openclaw gateway start",
     "numReplicas": 1,
     "sleepApplication": false,
     "restartPolicyType": "ON_FAILURE",
