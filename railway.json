@@ -2,6 +2,7 @@
   "$schema": "https://railway.com/railway.schema.json",
   "variables": {
     "OPENCLAW_GATEWAY_PORT": "${{PORT}}",
+    "OPENCLAW_GATEWAY_TOKEN": "${{secret(64, \"abcdef0123456789\")}}",
     "OPENCLAW_STATE_DIR": "/data/.openclaw",
     "OPENCLAW_WORKSPACE_DIR": "/data/workspace"
   },
