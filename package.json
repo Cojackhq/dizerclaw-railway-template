@@ -5,8 +5,10 @@
   "engines": {
     "node": ">=20"
   },
+  "dependencies": {
+    "openclaw": "latest"
+  },
   "scripts": {
-    "build": "npm install -g openclaw",
     "start": "openclaw gateway start"
   }
 }

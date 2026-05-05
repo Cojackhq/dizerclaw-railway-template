@@ -1,8 +1,5 @@
 {
   "$schema": "https://railway.com/railway.schema.json",
-  "build": {
-    "buildCommand": "npm run build"
-  },
   "variables": {
     "OPENCLAW_GATEWAY_PORT": "${{PORT}}",
     "OPENCLAW_STATE_DIR": "/data/.openclaw",
