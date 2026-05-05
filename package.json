@@ -9,6 +9,6 @@
     "openclaw": "latest"
   },
   "scripts": {
-    "start": "openclaw gateway start"
+    "start": "./node_modules/.bin/openclaw gateway start"
   }
 }
