@@ -3,9 +3,7 @@
 One-click deploy of [OpenClaw](https://openclaw.ai) on [Railway](https://railway.com) — no Docker required, no CLI setup.
 Built on Nixpacks. Persistent storage via Railway Volume.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/REPLACE_WITH_YOUR_TEMPLATE_CODE)
-
-> **Template code:** After publishing on Railway, replace `REPLACE_WITH_YOUR_TEMPLATE_CODE` above with your template code from railway.com/workspace/templates
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/J-4fzl?referralCode=qGKtrS&utm_medium=integration&utm_source=template&utm_campaign=cojack)
 
 ---
 
