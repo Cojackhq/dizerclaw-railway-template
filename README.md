@@ -1,6 +1,6 @@
-# OpenClaw Railway Template
+# Ministers Template — CoJack AI Chief of Staff
 
-One-click deploy of [OpenClaw](https://openclaw.ai) on [Railway](https://railway.com) — no Docker required, no CLI setup.
+One-click deploy of [Ministers T](https://cojackhq.com) on [Railway](https://railway.com) — powered by OpenClaw, no Docker required, no CLI setup.
 Built on Nixpacks. Persistent storage via Railway Volume.
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/J-4fzl?referralCode=qGKtrS&utm_medium=integration&utm_source=template&utm_campaign=generic)
