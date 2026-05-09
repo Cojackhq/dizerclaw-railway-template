@@ -3,10 +3,13 @@
   "variables": {
     "OPENCLAW_GATEWAY_TOKEN": "${{secret(64, \"abcdef0123456789\")}}",
     "OPENCLAW_STATE_DIR": "/data/.openclaw",
-    "OPENCLAW_WORKSPACE_DIR": "/data/workspace"
+    "OPENCLAW_WORKSPACE_DIR": "/data/workspace",
+    "OPENCLAW_CONTROL_UI_ALLOWED_ORIGINS": "*",
+    "OLLAMA_BASE_URL": "http://ollama.railway.internal:11434",
+    "TZ": "Asia/Riyadh"
   },
   "deploy": {
-    "startCommand": "OPENCLAW_GATEWAY_PORT=${PORT:-8080} ./node_modules/.bin/openclaw gateway --allow-unconfigured",
+    "startCommand": "OPENCLAW_GATEWAY_PORT=${PORT} ./node_modules/.bin/openclaw gateway --allow-unconfigured",
     "numReplicas": 1,
     "sleepApplication": false,
     "restartPolicyType": "ON_FAILURE",
