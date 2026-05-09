@@ -9,7 +9,7 @@
     "TZ": "Asia/Riyadh"
   },
   "deploy": {
-    "startCommand": "OPENCLAW_GATEWAY_PORT=${PORT} ./node_modules/.bin/openclaw gateway --allow-unconfigured",
+    "startCommand": "sh start.sh",
     "numReplicas": 1,
     "sleepApplication": false,
     "restartPolicyType": "ON_FAILURE",
